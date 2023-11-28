@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Titulo';
+  src: url('./Fuentes/RedHands.ttf');
+}
+
+@font-face {
+  font-family: 'Contenido';
+  src: url('./Fuentes/Taquito.otf');
+}
