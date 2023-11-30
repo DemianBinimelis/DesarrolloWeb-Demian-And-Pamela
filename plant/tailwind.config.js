@@ -10,6 +10,7 @@ module.exports = {
         Cafe:'#a52a2a',
         Fondo:'#F4D993',
         Containers:'#f8f8ff',
+        Footer: '#deb887',
       },
     },
   },

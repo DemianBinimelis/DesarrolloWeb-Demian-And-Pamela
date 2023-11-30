@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from '../Complements/Header';
+import Footer from '../Complements/Footer';
 
 function Acceder(){
     return(
-        <div>
+        <div className="bg-Fondo">
             <header>
                 <Header />
             </header>
@@ -11,9 +12,9 @@ function Acceder(){
             <div className="mt-20 flex flex-wrap justify-center">
                 <div className="mx-auto w-1/5 h-1/4 border border-Cafe rounded-md bg-Containers">
                     <div className="flex flex-col justify-center items-center">
-                        <h1 className='mt-4'>Iniciar Sesion</h1>
+                        <h1 className='mt-4' style={{fontFamily: "Titulo"}}>Iniciar Sesion</h1>
                         <br/>
-                        <form action="">
+                        <form action="" style={{fontFamily: "Container"}}>
                             <div className='mt-2 flex flex-col'> 
                                 <label htmlFor="">Correo:</label>
                                 <input className='bg-transparent border-0 border-b outline-none border-Cafe text-black px-4 rounded-md' type="text" />
@@ -33,9 +34,9 @@ function Acceder(){
 
                 <div className="mx-auto w-1/5 border border-Cafe rounded-md bg-Containers">
                     <div className="flex flex-col justify-center items-center">
-                        <h1 className='mt-4'>Registrarse</h1>
+                        <h1 className='mt-4' style={{fontFamily: "Titulo"}}>Registrarse</h1>
                         <br/>
-                        <form action="">
+                        <form action="" style={{fontFamily: "Container"}}>
                             <div className='mt-2 flex flex-col'> 
                                 <label htmlFor="">Nombre de usuario:</label>
                                 <input className='bg-transparent border-0 border-b outline-none border-Cafe text-black px-4 rounded-md' type="text" />
@@ -68,7 +69,9 @@ function Acceder(){
                 </div>
             </div>
 
-
+            <footer>
+                <Footer/>
+            </footer>
         </div>
     )
 }

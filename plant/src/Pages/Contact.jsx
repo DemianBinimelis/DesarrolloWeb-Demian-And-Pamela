@@ -8,7 +8,6 @@ import twitter from '../Imagenes/twt.png'
 
 function Contact() {
     return (
-
         <div className="bg-Fondo">
             <header>
                 <Header />
@@ -16,12 +15,12 @@ function Contact() {
             
             <h1 className="mt-12 text-center" style={{fontFamily:"Titulo"}}>Contactos - Plant Oasis </h1>
 
-            <div className="mt-12 flex flex-wrap justify-center">
+            <div className="mt-12 flex flex-wrap justify-center" style={{fontFamily: "Container"}}>
                 <div className="mx-auto border border-Cafe rounded-md bg-Containers">
                     <div className="flex flex-col justify-center items-center">
                         <br/>
                         <form action="">
-                            <div>
+                            <div className="mt-4">
                                 <label htmlFor="">Razon de contacto: </label>
                                 <select name="" id="">
                                     <option value="">...</option>
@@ -31,21 +30,20 @@ function Contact() {
                                 </select> 
                             </div>
                             
-                            <div>
-                                <label htmlFor="">Escriba su mensaje:</label>
+                            <div className="mt-4">
+                                <label htmlFor="">Escriba su mensaje: </label>
                                 <textarea name="" id="" cols="30" rows="4"></textarea>
                             </div>
                             
-                            <div>
-                                <label htmlFor="">Ingrese su nombre:</label>
+                            <div className="mt-4">
+                                <label htmlFor="">Ingrese su nombre: </label>
                                 <input type="text" />
                             </div>
                         </form>
                         <br/>
                     </div>
 
-                    <div className="mx-auto borderrounded-md">
-
+                    <div className="mx-4 borderrounded-md">
                         <h1 className="mt-8 mx-auto">
                             También puedes contactarnos mediante nuestras redes sociales:
                         </h1>
@@ -57,6 +55,7 @@ function Contact() {
                     </div>
                 </div>
             </div>
+            
             <footer>
                 <Footer/>
             </footer>

@@ -46,7 +46,7 @@ function Home() {
                 </AwesomeSlider>
             </div>
 
-            <div className=" mt-14 mx-4 bg-WhiteSuave rounded ">
+            <div className=" mt-14 mx-4 bg-WhiteSuave rounded border border-Cafe">
                 <div className="p-1">
                     <h1 className="text-center mt-4">Productos mas vendidos del mes</h1>
                 </div>
@@ -80,8 +80,6 @@ function Home() {
                             <p className="text-center">$000.00</p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
 
