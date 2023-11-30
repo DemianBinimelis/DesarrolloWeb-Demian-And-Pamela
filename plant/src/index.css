@@ -1,7 +1,9 @@
+/* Importa estilos basicos, estilo de componentes y utilidades de Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Se definen los tipos de letras a utilizar */
 @font-face {
   font-family: 'Titulo';
   src: url('./Fuentes/RedHands.ttf');

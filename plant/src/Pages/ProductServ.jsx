@@ -1,27 +1,36 @@
 import React from "react";
+// Importa los componentes header y footer de la carpeta complements
 import Header from "../Complements/Header";
 import Footer from "../Complements/Footer";
 
+// Importa las imagenes necesarias
 import img1 from '../Imagenes/imgVentas/imagen1.jpg'
 import img2 from '../Imagenes/imgVentas/imagen2.jpg'
 
-
 function ProductServ() {
     return (
+        // Crea un div con un color especifico
         <div className="bg-Fondo">
+            {/* Implementa el componente Header */}
             <header>
                 <Header />
             </header>
 
+            {/* Contenedor general */}
             <div className="container mx-auto p-4 mt-20 animate-slide-top">
                 <div className="bg-WhiteSuave rounded border border-Cafe p-4" style={{fontFamily:"Contenido"}}>
+                    {/* Titulo del contenedor */}
                     <h1 className="text-center mt-4 text-lg font-bold animate-slide-top" style={{fontFamily: "Titulo"}}>Productos más vendidos del mes</h1>
 
+                    {/* Algunos productos contenidos en el contenedor */}
                     <div className="mt-4 flex flex-wrap justify-around animate-slide-top">
                         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
                             <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
+                                {/* Imagen del producto */}
                                 <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img1} alt="Imagen 2" />
+                                {/* Nombre del producto */}
                                 <p className="text-center">Nombre del producto</p>
+                                {/* Valor del producto */}
                                 <p className="text-center">$000.00</p>
                             </div>
                         </div>
@@ -53,11 +62,14 @@ function ProductServ() {
                 </div>
             </div>
 
+            {/* Otro div para nuevo contenido */}
             <div className="mx-4 mt-14 bg-Containers rounded border border-red-600 animate-slide-top">
                 <div className="mx-4">
+                    {/* Titulo del contenido */}
                     <div className="p-1">
                         <h1 className="text-center mt-4 animate-slide-top2" style={{fontFamily: "Titulo"}}>Metodo de envio</h1>
                     </div>
+                    {/* Contenido informativo */}
                     <div className="mt-8 flex flex-wrap justify-between animate-slide-top3" style={{fontFamily: "Contenido"}}>
                         <p>Una vez efectuado el pago, los productos comprados son cuidadoseame empaquetados con los datos del usuario,
                             luego son enviados por nuestra misma empresa a traves de "Oasis Express" hacia todo el país, el usuario
@@ -67,6 +79,7 @@ function ProductServ() {
                 </div>
             </div>
 
+            {/* Implementa el componente Footer */}
             <footer>
                 <Footer />
             </footer>
