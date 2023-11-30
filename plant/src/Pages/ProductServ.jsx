@@ -13,11 +13,11 @@ function ProductServ() {
                 <Header />
             </header>
 
-            <div className="container mx-auto p-4 mt-20 ">
+            <div className="container mx-auto p-4 mt-20 animate-slide-top">
                 <div className="bg-WhiteSuave rounded border border-Cafe p-4" style={{fontFamily:"Contenido"}}>
-                    <h1 className="text-center mt-4 text-lg font-bold" style={{fontFamily: "Titulo"}}>Productos más vendidos del mes</h1>
+                    <h1 className="text-center mt-4 text-lg font-bold animate-slide-top" style={{fontFamily: "Titulo"}}>Productos más vendidos del mes</h1>
 
-                    <div className="mt-4 flex flex-wrap justify-around">
+                    <div className="mt-4 flex flex-wrap justify-around animate-slide-top">
                         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
                             <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
                                 <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img1} alt="Imagen 2" />
@@ -26,7 +26,7 @@ function ProductServ() {
                             </div>
                         </div>
 
-                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4 animate-slide-top2">
                             <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
                                 <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" />
                                 <p className="text-center">Nombre del producto</p>
@@ -34,7 +34,7 @@ function ProductServ() {
                             </div>
                         </div>
 
-                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4 animate-slide-top3">
                             <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
                                 <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img1} alt="Imagen 2" />
                                 <p className="text-center">Nombre del producto</p>
@@ -42,7 +42,7 @@ function ProductServ() {
                             </div>
                         </div>
 
-                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4 animate-slide-top4">
                             <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
                                 <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" />
                                 <p className="text-center">Nombre del producto</p>
@@ -53,12 +53,12 @@ function ProductServ() {
                 </div>
             </div>
 
-            <div className="mx-4 mt-14 bg-Containers rounded border border-red-600">
+            <div className="mx-4 mt-14 bg-Containers rounded border border-red-600 animate-slide-top">
                 <div className="mx-4">
                     <div className="p-1">
-                        <h1 className="text-center mt-4" style={{fontFamily: "Titulo"}}>Metodo de envio</h1>
+                        <h1 className="text-center mt-4 animate-slide-top2" style={{fontFamily: "Titulo"}}>Metodo de envio</h1>
                     </div>
-                    <div className="mt-8 flex flex-wrap justify-between" style={{fontFamily: "Contenido"}}>
+                    <div className="mt-8 flex flex-wrap justify-between animate-slide-top3" style={{fontFamily: "Contenido"}}>
                         <p>Una vez efectuado el pago, los productos comprados son cuidadoseame empaquetados con los datos del usuario,
                             luego son enviados por nuestra misma empresa a traves de "Oasis Express" hacia todo el país, el usuario
                             recibira un numero unico que será utilizado para el rastreo de su pedido desde que sale del local hasta
