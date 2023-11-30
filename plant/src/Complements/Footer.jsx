@@ -6,7 +6,7 @@ import twt from "../Imagenes/twt.png"
 export function Footer() {
     return (
         <div>
-            <footer className="mt-32 flex bg-Footer flex-col border justify-center bg-teal-500 shadow">
+            <footer className="mt-32 flex bg-Footer flex-col border justify-centershadow">
                 <div className="flex justify-between mt-2 p-4 mx-4 ">
 
                     <p className="mx-2 text-xl text-white font-semibold"> ipsum dolor sit</p>

@@ -14,41 +14,44 @@ function ProductServ() {
                 <Header />
             </header>
 
-            <div className=" mt-14 mx-4 bg-Containers rounded border border-red-600">
-                <div className="p-1">
-                    <h1 className="text-center mt-4" style={{fontFamily: "Titulo"}}>Productos mas vendidos del mes</h1>
-                </div>
+            <div className="container mx-auto p-4 mt-20 ">
+                <div className="bg-WhiteSuave rounded border border-Cafe p-4" style={{fontFamily:"Contenido"}}>
+                    <h1 className="text-center mt-4 text-lg font-bold" style={{fontFamily: "Titulo"}}>Productos más vendidos del mes</h1>
 
-                <div className="mt-8 flex flex-wrap justify-between" style={{fontFamily: "Contenido"}}>
-                    <div className="w-1/4">
-                        <div className="flex flex-col justify-center items-center">
-                            <img className="w-40" src={img1} alt="Imagen 1" />
-                            <p className="text-center">Nombre del producto</p>
-                            <p className="text-center">$000.00</p>
+                    <div className="mt-4 flex flex-wrap justify-around">
+                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
+                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" />
+                                <p className="text-center">Nombre del producto</p>
+                                <p className="text-center">$000.00</p>
+                            </div>
+                        </div>
+
+                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
+                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" />
+                                <p className="text-center">Nombre del producto</p>
+                                <p className="text-center">$000.00</p>
+                            </div>
+                        </div>
+
+                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
+                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" />
+                                <p className="text-center">Nombre del producto</p>
+                                <p className="text-center">$000.00</p>
+                            </div>
+                        </div>
+
+                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
+                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" />
+                                <p className="text-center">Nombre del producto</p>
+                                <p className="text-center">$000.00</p>
+                            </div>
                         </div>
                     </div>
-                    <div className="w-1/4">
-                        <div className="flex flex-col justify-center items-center">
-                            <img className="w-40" src={img2} alt="Imagen 2" />
-                            <p className="text-center">Nombre del producto</p>
-                            <p className="text-center">$000.00</p>
-                        </div>
-                    </div>
-                    <div className="w-1/4">
-                        <div className="flex flex-col justify-center items-center">
-                            <img className="w-40 h-40" src={img3} alt="Imagen 3" />
-                            <p className="text-center">Nombre del producto</p>
-                            <p className="text-center">$000.00</p>
-                        </div>
-                    </div>
-                    <div className="w-1/4">
-                        <div className="flex flex-col justify-center items-center">
-                            <img className="w-40" src={img4} alt="Imagen 1" />
-                            <p className="text-center">Nombre del producto</p>
-                            <p className="text-center">$000.00</p>
-                        </div>
-                    </div>
-                </div><br />
+                </div>
             </div>
 
             <div className="mx-4 mt-14 bg-Containers rounded border border-red-600">
