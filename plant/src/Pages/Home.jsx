@@ -9,6 +9,9 @@ import img1 from '../Imagenes/imgCarrusel/carruselimagen1.jpg'
 import img2 from '../Imagenes/imgCarrusel/carruselimagen2.jpg'
 import img3 from '../Imagenes/imgCarrusel/carruselimagen3.jpg'
 
+import img3Venta from '../Imagenes/imgVentas/imagen3.png'
+import img4Venta from '../Imagenes/imgVentas/imagen4.jpg'
+
 function Home() {
     const SliderStyles = {
         '--slider-height-percentage': '40%',
@@ -53,7 +56,15 @@ function Home() {
                     <div className="mt-4 flex flex-wrap justify-around">
                         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
                             <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
-                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" />
+                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img4Venta} alt="Imagen 2" />
+                                <p className="text-center">Maceta de adorno</p>
+                                <p className="text-center">CLP 20.000</p>
+                            </div>
+                        </div>
+
+                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
+                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
+                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img3Venta} alt="Imagen 2" />
                                 <p className="text-center">Nombre del producto</p>
                                 <p className="text-center">$000.00</p>
                             </div>
@@ -61,7 +72,7 @@ function Home() {
 
                         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
                             <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
-                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" />
+                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img4Venta} alt="Imagen 2" />
                                 <p className="text-center">Nombre del producto</p>
                                 <p className="text-center">$000.00</p>
                             </div>
@@ -69,15 +80,7 @@ function Home() {
 
                         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
                             <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
-                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" />
-                                <p className="text-center">Nombre del producto</p>
-                                <p className="text-center">$000.00</p>
-                            </div>
-                        </div>
-
-                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
-                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
-                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" />
+                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img3Venta} alt="Imagen 2" />
                                 <p className="text-center">Nombre del producto</p>
                                 <p className="text-center">$000.00</p>
                             </div>

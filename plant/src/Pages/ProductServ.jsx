@@ -4,8 +4,7 @@ import Footer from "../Complements/Footer";
 
 import img1 from '../Imagenes/imgVentas/imagen1.jpg'
 import img2 from '../Imagenes/imgVentas/imagen2.jpg'
-import img3 from '../Imagenes/imgVentas/imagen3.jpg'
-import img4 from '../Imagenes/imgVentas/imagen4.jpg'
+
 
 function ProductServ() {
     return (
@@ -21,7 +20,7 @@ function ProductServ() {
                     <div className="mt-4 flex flex-wrap justify-around">
                         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
                             <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
-                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" />
+                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img1} alt="Imagen 2" />
                                 <p className="text-center">Nombre del producto</p>
                                 <p className="text-center">$000.00</p>
                             </div>
@@ -37,7 +36,7 @@ function ProductServ() {
 
                         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
                             <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
-                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" />
+                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img1} alt="Imagen 2" />
                                 <p className="text-center">Nombre del producto</p>
                                 <p className="text-center">$000.00</p>
                             </div>
