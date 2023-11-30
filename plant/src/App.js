@@ -13,7 +13,7 @@ function App() {
   return (
     // Proporciona funcionalidad de enrutamiento
     <BrowserRouter>
-      <Routes>
+      <Routes> {/* definicion de rutas a utilizarse */}
         {/* Route define cada ruta a utilizarse  */}
         <Route path='/' element={<Home />} />
         <Route path='/ProductServ' element={<Productos/>} />

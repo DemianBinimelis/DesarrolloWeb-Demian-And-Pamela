@@ -3,6 +3,9 @@ import React from "react";
 import Header from "../Complements/Header";
 import Footer from "../Complements/Footer";
 
+// Importa la tabla de imagenes
+import Tabla from "../Complements/Tabla";
+
 // Componente utilizado para el carrusel
 import AwesomeSlider from 'react-awesome-slider';
 //Importa estilos de la biblioteca react-awesome-slider
@@ -76,7 +79,7 @@ function Home() {
                     <h1 className="text-center mt-4 text-lg font-bold animate-slide-top" style={{fontFamily: "Titulo"}}>Productos más vendidos del mes</h1>
 
                     <div className="mt-4 flex flex-wrap justify-around animate-slide-top">
-                        {/* Contenedor para cada producto */}
+                        {/* Contenedor de producto que ayuda la responsive */}
                         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
                             <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
                                 {/* Imagen del producto */}
@@ -87,31 +90,48 @@ function Home() {
                                 <p className="text-center">CLP 20.000</p>
                             </div>
                         </div>
-
-                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4 animate-slide-top2">
-                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
+                        {/* Contenedor de producto que ayuda la responsive */}
+                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4 animate-slide-top2"> 
+                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200"> {/* Contenedor de producto */}
+                                {/* Imagen del producto */}
                                 <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img3Venta} alt="Imagen 2" />
-                                <p className="text-center">Nombre del producto</p>
-                                <p className="text-center">$000.00</p>
+                                <p className="text-center">pack: Estante para macetas con macetas incluidas</p> {/* Nombre del producto */}
+                                <p className="text-center">CLP 35.0000</p> {/* Valor del producto */}
                             </div>
                         </div>
-
-                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4 animate-slide-top3">
-                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
+                        {/* Contenedor de producto que ayuda la responsive */}
+                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4 animate-slide-top3"> 
+                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200"> {/* Contenedor de producto */}
+                                {/* Imagen del producto */}
                                 <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img4Venta} alt="Imagen 2" />
-                                <p className="text-center">Nombre del producto</p>
-                                <p className="text-center">$000.00</p>
+                                <p className="text-center">Macetero</p> {/* Nombre del producto */}
+                                <p className="text-center">CLP 20.000</p> {/* Valor del producto */}
                             </div>
                         </div>
-
-                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4 animate-slide-top4">
-                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
+                        {/* Contenedor de producto que ayuda la responsive */}
+                        <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4 animate-slide-top4"> 
+                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">{/* Contenedor de producto */}
+                                {/* Imagen del producto */}
                                 <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img3Venta} alt="Imagen 2" />
-                                <p className="text-center">Nombre del producto</p>
-                                <p className="text-center">$000.00</p>
+                                {/* Nombre del producto */}
+                                <p className="text-center">Pack: Estante para cetas con macetas incluidas</p>
+                                {/* Valor del producto */}
+                                <p className="text-center">CLP 35.000</p>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div className="container mx-auto p-4 mt-20 animate-slide-top">
+                <div className="bg-WhiteSuave rounded border border-Cafe p-4" style={{fontFamily:"Contenido"}}>
+                    {/* Titulo del contenedor */}
+                    <h1 className="text-center mt-4 text-lg font-bold" style={{fontFamily: "Titulo"}}> Nuevas plantas añadidas</h1>
+                    <div className="mx-auto">
+                        <Tabla/>
+
+                    </div>
+                  
                 </div>
             </div>
 

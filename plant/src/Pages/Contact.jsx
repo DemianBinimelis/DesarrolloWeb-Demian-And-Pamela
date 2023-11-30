@@ -1,7 +1,8 @@
 import React from "react";
-// Importa los componentes header y footer de la carpeta complements
+// Importa los componentes header, footer y tabla de la carpeta complements
 import Header from "../Complements/Header";
 import Footer from "../Complements/Footer";
+import Tabla from "../Complements/Tabla";
 
 // Importa las imagenes necesarias
 import facebook from '../Imagenes/fbk.png'
@@ -16,17 +17,17 @@ function Contact() {
             <header>
                 <Header />
             </header>
-            
+
             {/* Indica el titulo de la pagina */}
-            <h1 className="mt-12 text-center text-2xl animate-slide-top" style={{fontFamily:"Titulo"}}>Contactos - Plant Oasis </h1>
+            <h1 className="mt-12 text-center text-2xl animate-slide-top" style={{ fontFamily: "Titulo" }}>Contactos - Plant Oasis </h1>
 
             {/* Contenedor con margen superior, alineacion */}
-            <div className="mt-12 flex flex-wrap justify-center animate-slide-top2" style={{fontFamily: "Contenido"}}>
+            <div className="mt-12 flex flex-wrap justify-center animate-slide-top2" style={{ fontFamily: "Contenido" }}>
                 {/* Contenedor con margen automatico, borde, redondeo, y un fondo especifico */}
                 <div className="mx-auto border border-Cafe rounded-md bg-Containers">
                     {/* Contenedor del formulario */}
                     <div className="flex flex-col justify-center items-center">
-                        <br/> {/* Salto en linea */}
+                        <br /> {/* Salto en linea */}
                         <form action="">
                             <div className="mt-4 animate-slide-top3">
                                 {/* Nombre del campo */}
@@ -39,16 +40,16 @@ function Contact() {
                                     <option value="">Sugerencias</option>
                                     <option value="">Reclamos</option>
                                     <option value="">Agradecimientos</option>
-                                </select> 
+                                </select>
                             </div>
-                            
+
                             <div className="mt-4 animate-slide-top4">
                                 {/* Nombre del campo */}
                                 <label htmlFor="">Escriba su mensaje: </label>
                                 {/* Espacio de la respuesta */}
                                 <textarea name="" id="" cols="30" rows="4"></textarea>
                             </div>
-                            
+
                             <div className="mt-4 animate-slide-top5">
                                 {/* Nombre del campo */}
                                 <label htmlFor="">Ingrese su nombre: </label>
@@ -56,7 +57,7 @@ function Contact() {
                                 <input type="text" />
                             </div>
                         </form>
-                        <br/>
+                        <br />
                     </div>
 
                     {/* Contenedor de mas informacion */}
@@ -67,18 +68,18 @@ function Contact() {
                         </h1>
                         {/* Enlaces con imagenes de redes sociales */}
                         <div className="flex">
-                            <a href="https://www.facebook.com/"><img className="w-8" src={facebook} alt=""/></a>
-                            <a href="https://www.instagram.com"><img className="w-8" src={instagram} alt=""/></a>
-                            <a href="https://www.twitter.com"><img className="w-8" src={twitter} alt=""/></a>
+                            <a href="https://www.facebook.com/"><img className="w-8" src={facebook} alt="icono defacebook" /></a>
+                            <a href="https://www.instagram.com"><img className="w-8" src={instagram} alt="icono de instagram" /></a>
+                            <a href="https://www.twitter.com"><img className="w-8" src={twitter} alt="i" /></a>
                         </div>
                     </div>
                     <br />
                 </div>
             </div>
-            
+
             {/* Implementa el componente Footer */}
             <footer>
-                <Footer/>
+                <Footer />
             </footer>
         </div>
     );

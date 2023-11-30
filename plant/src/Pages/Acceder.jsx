@@ -21,7 +21,7 @@ function Acceder(){
                             Iniciar Sesión
                         </h1>
                         {/* Formulario con margen superior para el inicio de sesion */}
-                        <form action="" className='mt-2'>
+                        <form action=""  className='mt-2'>
                             <div className='mt-2 flex flex-col'>
                                 {/* Primer campo solicitado */}
                                 <label htmlFor="">Correo:</label>
@@ -31,7 +31,7 @@ function Acceder(){
                             <div className='mt-4 flex flex-col'>
                                 {/* Segundo campo solicitado */}
                                 <label htmlFor="">Contraseña:</label>
-                                <input className='bg-transparent border-0 border-b outline-none border-Cafe text-black px-4 rounded-md' type="text" />
+                                <input className='bg-transparent border-0 border-b outline-none border-Cafe text-black px-4 rounded-md' type="password" />
 
                                 {/* Boton de envio del formulario */}
                                 <input className='mt-4 px-4 py-1 w-full sm:w-24 text-center rounded text-black duration-300 hover:text-white hover:bg-Cafe' type="submit" />
@@ -45,29 +45,29 @@ function Acceder(){
                     <div className="border border-Cafe rounded-md bg-Containers p-4">
                         {/* Idica el titulo del formulario */}
                         <h1 className='text-lg font-bold mt-4' style={{ fontFamily: "Titulo" }}>Registrarse</h1>
-                        <form action="" className='mt-2'>
-                            {/* Indica los campos solicitados */}
-                            <div className='mt-2 flex flex-col'>
-                                <label htmlFor="">Nombre de usuario:</label>
+                        <form action="" className='mt-2'> {/* Formulario de registro */}
+                            
+                            <div className='mt-2 flex flex-col'> {/* container de nombre usuario */}
+                                <label htmlFor="">Nombre de usuario:</label> 
                                 <input className='bg-transparent border-0 border-b outline-none border-Cafe text-black px-4 rounded-md' type="text" />
                             </div>
 
-                            <div className='mt-8 flex flex-col'>
+                            <div className='mt-8 flex flex-col'> {/* container de rut usuario */}
                                 <label htmlFor="">Rut de usuario:</label>
                                 <input className='bg-transparent border-0 border-b outline-none border-Cafe text-black px-4 rounded-md' type="text" />
                             </div>
 
-                            <div className='mt-8 flex flex-col'>
+                            <div className='mt-8 flex flex-col'> {/* container de correo electronico */}
                                 <label htmlFor="">Correo electrónico:</label>
                                 <input className='bg-transparent border-0 border-b outline-none border-Cafe text-black px-4 rounded-md' type="text" />
                             </div>
 
-                            <div className='mt-8 flex flex-col'>
+                            <div className='mt-8 flex flex-col'> { /* container de contraseña */}
                                 <label htmlFor="">Contraseña:</label>
-                                <input className='bg-transparent border-0 border-b outline-none border-Cafe text-black px-4 rounded-md' type="text" />
+                                <input className='bg-transparent border-0 border-b outline-none border-Cafe text-black px-4 rounded-md' type="password" />
                             </div>
 
-                            <div className='mt-8 flex flex-col'>
+                            <div className='mt-8 flex flex-col'> {/* container de confirmacion de contraseña */}
                                 <label htmlFor="">Dirección:</label>
                                 <input className='bg-transparent border-0 border-b outline-none border-Cafe text-black px-4 rounded-md' type="text" />
 

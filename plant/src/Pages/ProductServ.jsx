@@ -22,40 +22,44 @@ function ProductServ() {
                     {/* Titulo del contenedor */}
                     <h1 className="text-center mt-4 text-lg font-bold animate-slide-top" style={{fontFamily: "Titulo"}}>Productos más vendidos del mes</h1>
 
-                    {/* Algunos productos contenidos en el contenedor */}
+                    {/* Contenedor de algunos productos */}
                     <div className="mt-4 flex flex-wrap justify-around animate-slide-top">
+                        {/* Contenedor de un producto que ayuda al responsive */}
                         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4">
                             <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
                                 {/* Imagen del producto */}
                                 <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img1} alt="Imagen 2" />
                                 {/* Nombre del producto */}
-                                <p className="text-center">Nombre del producto</p>
+                                <p className="text-center">Macetero pequeno</p>
                                 {/* Valor del producto */}
-                                <p className="text-center">$000.00</p>
+                                <p className="text-center">CLP 5.000</p>
                             </div>
                         </div>
-
+                        {/* Contenedor de un producto que ayuda al responsive */}
                         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4 animate-slide-top2">
-                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
-                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" />
-                                <p className="text-center">Nombre del producto</p>
-                                <p className="text-center">$000.00</p>
+                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200"> {/* Contenedor de un producto */}
+                                {/* Imagen del producto */}
+                                <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" /> 
+                                <p className="text-center">Maceta pequena gris</p> {/* Nombre del producto */}
+                                <p className="text-center">CLP 5.000</p> {/* Valor del producto */}
                             </div>
                         </div>
-
+                        {/* Contenedor de un producto que ayuda al responsive */}
                         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4 animate-slide-top3">
-                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
+                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200"> {/* Contenedor de un producto */}
+                                {/* Imagen del producto */}
                                 <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img1} alt="Imagen 2" />
-                                <p className="text-center">Nombre del producto</p>
-                                <p className="text-center">$000.00</p>
+                                <p className="text-center">Macetero pequeno</p> {/* Nombre del producto */}
+                                <p className="text-center">CLP 5.000</p> {/* Valor del producto */}
                             </div>
                         </div>
-
+                        {/* Contenedor de un producto que ayuda al responsive */}
                         <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 mb-4 animate-slide-top4">
-                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200">
+                            <div className="bg-white rounded border p-2 hover:border-Cafe duration-200"> {/* Contenedor de un producto */}
+                                {/* Imagen del producto */}
                                 <img className="mt-4 w-60 mx-auto mb-2 hover:scale-105 duration-300 rounded-sm" src={img2} alt="Imagen 2" />
-                                <p className="text-center">Nombre del producto</p>
-                                <p className="text-center">$000.00</p>
+                                <p className="text-center">Maceta pequena gris</p> {/* Nombre del producto */}
+                                <p className="text-center">CLP 5.000</p>{/* Valor del producto */}
                             </div>
                         </div>
                     </div>
